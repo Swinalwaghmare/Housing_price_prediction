@@ -26,7 +26,7 @@ def get_requirements(file_path:str)->List[str]:
 
 setup(
     name='Housing_price_prediction',
-    version='0.0.1',
+    version='0.0.2',
     author='Swinal',
     author_email='swinalwaghmare2802@gmail.com',
     install_requires = get_requirements(file_path='requirements.txt'),

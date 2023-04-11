@@ -25,7 +25,7 @@ def get_requirements(file_path:str)->List[str]:
 
 
 setup(
-    name='Housing_price_prediction',
+    name='gemstone_price_prediction',
     version='0.0.2',
     author='Swinal',
     author_email='swinalwaghmare2802@gmail.com',

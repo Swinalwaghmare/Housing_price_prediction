@@ -28,8 +28,7 @@ class DataIngestion:
             df = pd.read_csv(data_file_path)
             logging.info("Dataset is readed")
             
-            os.makedirs(os.path.dirname(self.ingestion_config.raw_data_path),
-                        exist_ok=True)
+            os.makedirs(os.path.dirname(self.ingestion_config.raw_data_path),exist_ok=True)
             df.to_csv(self.ingestion_config.raw_data_path,index=False)
             logging.info(f"Raw data file path :[{self.ingestion_config.raw_data_path}]")
             

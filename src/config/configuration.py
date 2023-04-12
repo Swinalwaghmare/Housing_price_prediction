@@ -16,3 +16,8 @@ train_data_file_path = os.path.join(ROOT_DIR,ARTIFACT_DIR,
 test_data_file_path = os.path.join(ROOT_DIR,ARTIFACT_DIR,
                                    DATA_INGESTION_ARTIFACT,
                                     TEST_DATA_KEY)
+
+# Data transformation config
+preprocessing_obj_file = os.path.join(ROOT_DIR,ARTIFACT_DIR,
+                                      DATA_TRANSFORMATION_ARTIFACT,
+                                      DATA_TRANSFORMATION_PREPROCESSING_OBJ)  

@@ -14,3 +14,7 @@ DATA_INGESTION_ARTIFACT = 'data_ingestion'
 RAW_DATA_KEY = 'raw.csv'
 TRAIN_DATA_KEY = 'train.csv'
 TEST_DATA_KEY = 'test.csv'
+
+# Data transformation
+DATA_TRANSFORMATION_ARTIFACT = 'data_transformation'
+DATA_TRANSFORMATION_PREPROCESSING_OBJ = 'preprocessor.pkl'

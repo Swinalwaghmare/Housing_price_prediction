@@ -131,4 +131,6 @@ dmypy.json
 # Folders 
 Data/
 .csv
-artifacts/
+raw.csv
+test.csv
+train.csv

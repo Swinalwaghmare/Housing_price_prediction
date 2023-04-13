@@ -18,3 +18,7 @@ TEST_DATA_KEY = 'test.csv'
 # Data transformation
 DATA_TRANSFORMATION_ARTIFACT = 'data_transformation'
 DATA_TRANSFORMATION_PREPROCESSING_OBJ = 'preprocessor.pkl'
+
+# Model training
+MODEL_ARTIFACT = 'Model'
+MODEL_DIR_KEY = 'model.pkl'

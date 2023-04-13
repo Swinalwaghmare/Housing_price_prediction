@@ -21,3 +21,7 @@ test_data_file_path = os.path.join(ROOT_DIR,ARTIFACT_DIR,
 preprocessing_obj_file = os.path.join(ROOT_DIR,ARTIFACT_DIR,
                                       DATA_TRANSFORMATION_ARTIFACT,
                                       DATA_TRANSFORMATION_PREPROCESSING_OBJ)  
+
+# Model traning config
+model_file_path = os.path.join(ROOT_DIR,ARTIFACT_DIR,
+                               MODEL_ARTIFACT,MODEL_DIR_KEY) 

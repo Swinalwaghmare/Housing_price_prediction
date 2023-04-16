@@ -41,3 +41,10 @@ def evaluate_model(X_train,y_train,X_test,y_test,models):
         logging.info('Exception occured during model evaluation')
         raise GemstoneException(e,sys)
     
+def load_model(file_path):
+    try:
+        with open(file_path,'rb') as file_obj:
+            return pickle.load(file_obj)
+    except Exception as e:
+        logging.info("Exception occured while loading an object")
+        raise GemstoneException(e,sys)
